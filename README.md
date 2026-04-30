@@ -4,7 +4,7 @@
 **Arduino-based camera trigger for high-speed lightning photography. Features include auto-threshold light sensors, sound triggers, time-lapse, long exposure, and interval timers. Developed in 2015, this field-tested prototype uses an LCD interface and EEPROM to store settings for professional storm chasing.**
 
 ## Prototype
-The device was developed through multiple iterations, moving from breadboards to a finalized prototype with a dedicated housing and interface.
+The device evolved through several iterations, from breadboard prototypes to this finalized version with a dedicated case and interface.
 
 ![Camera CTR Prototype](Docs/Photos/20161024_200539.jpg)
 
@@ -41,22 +41,27 @@ The system utilizes the internal EEPROM to persist user settings across power cy
 * **EEPROM 04:** Lightning Manual Sensitivity.
 * **EEPROM 05:** Sound Sensor Thresholds.
 
-## Sample Photos
-These images were captured using the Camera CTR trigger, demonstrating its ability to sync the shutter with lightning discharges during actual storms.
+## Photo Gallery (Captured with Camera CTR)
+Below are the photos captured during storms, demonstrating the precision of the synchronized trigger with lightning discharges.
 
-| | |
-|:---:|:---:|
-| ![Lightning Sample 1](Docs/Photos/2015-01-26%2009.17.11-2.jpg) | ![Lightning Sample 2](Docs/Photos/DSC_0063.NEF.jpg) |
-| ![Lightning Sample 3](Docs/Photos/DSC_0080.NEF.jpg) | ![Lightning Sample 4](Docs/Photos/DSC_0083.NEF.jpg) |
-| ![Lightning Sample 5](Docs/Photos/DSC_0090.NEF.jpg) | |
+| | | |
+|:---:|:---:|:---:|
+| ![Lightning 1](Docs/Photos/2015-01-26%2009.17.11-2.jpg) | ![Lightning 2](Docs/Photos/DSC_0063.NEF.jpg) | ![Lightning 3](Docs/Photos/DSC_0080.NEF.jpg) |
+| ![Lightning 4](Docs/Photos/DSC_0083.NEF.jpg) | ![Lightning 5](Docs/Photos/DSC_0090.NEF.jpg) | ![Lightning 6](Docs/Photos/DSC_0120.jpg) |
+| ![Lightning 7](Docs/Photos/DSC_0123.jpg) | ![Lightning 8](Docs/Photos/DSC_0125.jpg) | ![Lightning 9](Docs/Photos/DSC_0128.jpg) |
+| ![Lightning 10](Docs/Photos/DSC_0129.jpg) | ![Lightning 11](Docs/Photos/DSC_0130.jpg) | ![Lightning 12](Docs/Photos/DSC_0131.jpg) |
+| ![Lightning 13](Docs/Photos/FB_IMG_1479462023541.jpg) | ![Lightning 14](Docs/Photos/IMG_0496-1-2.jpg) | ![Lightning 15](Docs/Photos/IMG_0550-2-2.jpg) |
 
-## Video Documentation & Tutorials
-A comprehensive video series covers the hardware assembly, programming logic, and real-world field tests. You can follow the development and see the device in action:
+## Open Source & Contributions
+This is an **open project**. You are free to copy, modify, and use it for your own photography projects. If you find this helpful or use it in your work, a citation or credit is greatly appreciated!
+
+## Video Documentation
+A comprehensive video series covers the hardware assembly, programming logic, and real-world field tests:
 
 **[📺 Camera CTR Project - YouTube Playlist](https://www.youtube.com/playlist?list=PLX2YtMdpQuUke00zPxl_PeEOyKNRLNvi6)**
 
-### Key Technical Insights
-* **Programming Logic:** Detailed breakdown of the Arduino code structure, including the custom `ReadKeypad` functions and menu navigation.
+### Technical Highlights
+* **Programming Logic:** Detailed breakdown of the Arduino code structure and menu navigation.
 * **Field Testing:** Real footage of the sensor triggering the camera during lightning storms.
 
 ## Version History (2015-2016)
