@@ -3,6 +3,11 @@
 ### Description
 **Arduino-based camera trigger for high-speed lightning photography. Features include auto-threshold light sensors, sound triggers, time-lapse, long exposure, and interval timers. Developed in 2015, this field-tested prototype uses an LCD interface and EEPROM to store settings for professional storm chasing.**
 
+## Prototype
+The device was developed through multiple iterations, moving from breadboards to a finalized prototype with a dedicated housing and interface.
+
+![Camera CTR Prototype](Docs/Photos/20161024_200539.jpg)
+
 ## Features
 * **Lightning Auto-Trigger:** Automatically calculates sensitivity thresholds based on ambient light to capture strikes instantly.
 * **Lightning Manual Mode:** Manual adjustment of light sensitivity for specific atmospheric conditions.
@@ -35,6 +40,15 @@ The system utilizes the internal EEPROM to persist user settings across power cy
 * **EEPROM 03:** Timer Delay.
 * **EEPROM 04:** Lightning Manual Sensitivity.
 * **EEPROM 05:** Sound Sensor Thresholds.
+
+## Sample Photos
+These images were captured using the Camera CTR trigger, demonstrating its ability to sync the shutter with lightning discharges during actual storms.
+
+| | |
+|:---:|:---:|
+| ![Lightning Sample 1](Docs/Photos/2015-01-26%2009.17.11-2.jpg) | ![Lightning Sample 2](Docs/Photos/DSC_0063.NEF.jpg) |
+| ![Lightning Sample 3](Docs/Photos/DSC_0080.NEF.jpg) | ![Lightning Sample 4](Docs/Photos/DSC_0083.NEF.jpg) |
+| ![Lightning Sample 5](Docs/Photos/DSC_0090.NEF.jpg) | |
 
 ## Video Documentation & Tutorials
 A comprehensive video series covers the hardware assembly, programming logic, and real-world field tests. You can follow the development and see the device in action:
