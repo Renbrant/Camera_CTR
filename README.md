@@ -1,5 +1,7 @@
 # Camera CTR - High-Speed & Lightning Photography Trigger
 
+![Camera CTR Banner](Docs/Promo/Banner%202.png)
+
 ### Description
 **Arduino-based camera trigger for high-speed lightning photography. Features include auto-threshold light sensors, sound triggers, time-lapse, long exposure, and interval timers. Developed in 2015, this field-tested prototype uses an LCD interface and EEPROM to store settings for professional storm chasing.**
 
@@ -8,21 +10,22 @@ The device evolved through several iterations, from early breadboard tests to a 
 
 ![Camera CTR Prototype](Docs/Photos/20161024_200539.jpg)
 
-### Hardware Schematics
-Although the custom PCB was not manufactured, the project includes complete design files for the circuit and board layout.
+### Hardware Schematics & PCB
+Although the custom PCB was not manufactured at the time, the project includes complete design files for the circuit and board layout.
 
 | Breadboard View | Schematic | PCB Design (Unfabricated) |
 | :---: | :---: | :---: |
 | ![Breadboard](Hardware/Camera%20control%20Sketch%20bread%20v2.1_bb.png) | ![Schematic](Hardware/Camera%20control%20Sketch%20bread%20v2.1_schem.png) | ![PCB Layout](Hardware/Camera%20control%20Sketch%20bread%20v2.1_pcb.png) |
 
 ## Features
-* **Lightning Auto-Trigger**: Automatically calculates sensitivity thresholds based on ambient light to capture strikes.
+* **Lightning Auto-Trigger**: Automatically calculates sensitivity thresholds based on ambient light to capture strikes instantly.
 * **Lightning Manual Mode**: Manual adjustment of light sensitivity for specific conditions.
 * **Sound Sensor Trigger**: Fires the camera based on acoustic events with adjustable sensitivity.
 * **Time-Lapse Mode**: Captures sequences with programmable intervals up to 30 seconds.
 * **Long Exposure Controller**: Precision shutter control for exposures up to 120 seconds.
 * **Interval Timer**: Countdown timer for delayed photography.
 * **Manual Mode**: Standard digital remote shutter functionality.
+* **Backlight Management**: Dedicated control to toggle LCD light during night shoots.
 
 ## Hardware Configuration
 The project is built on the Arduino platform using an ATmega chip and a 16x2 LCD. 
